@@ -1,0 +1,34 @@
+body, html {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered {
+  padding: 20px 30px;
+  border: 3px solid tomato;
+  background-color: lemonchiffon;
+}
+
+.centered h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.centered h1 span {
+  color: steelblue;
+}
+
+#users {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#users li {
+  padding: 0.5em;
+  margin: 0.5em;
+  background: rgba(0, 0, 0, 0.1);
+}
